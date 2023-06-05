@@ -8,7 +8,6 @@ public class ContaCorrente {
 	private Double limite;
 	
 	public ContaCorrente(Integer numero, String cliente, Double saldo, Double limite) {
-		super();
 		this.numero = numero;
 		this.cliente = cliente;
 		this.saldo = saldo;
@@ -38,11 +37,12 @@ public class ContaCorrente {
 	public void setLimite(Double limite) {
 		this.limite = limite;
 	}
-	public void Double deposito(valor) {
-		return saldo += valor;
+	public void deposito(Double valor) {
+		saldo += valor;
 	}
-	public void Double saque(valor) {
-		return saldo -= valor;
+	public void saque(Double valor) {
+		
+		saldo -= valor;
 	}
 	
 
